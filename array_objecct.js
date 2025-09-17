@@ -5,3 +5,5 @@ const product=[
        {name:"Vivo",brand:"Vivo",price:44000 ,colo:"Blue"},
 
 ]
+const result=product.map(produ =>produ.price);
+console.log(result);
